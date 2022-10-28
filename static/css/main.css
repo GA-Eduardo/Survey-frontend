@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+   margin:2rem;
+}
+.grabando{
+  color:red;
+  background-color:peru;
+}
+.flex-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 768px;
+  min-height: 93vh;
+  color:rgb(236, 243, 246);
+  background-color: rgb(69, 67, 67);
+}
+.center{
+  margin: auto;
+  align-items: center;
+}
+h2{
+  color:rgb(175, 226, 248);
+  margin-bottom: 2rem;
+}
+.oculto{
+  display:none
+}
+.boton{
+  width: fit-content;
+  margin-top: 3rem;
+}
+.glyphicon {
+    font-size: 25px;
+}
+textarea{
+  color:   rgb(80, 7, 71);
+  display:none;
+  margin-top: 2rem;
+  /* font-size: 2.5rem; */
+  max-width: 600px ;
+  padding: 0.5rem;
+  animation: fadeIn;
+  animation-duration: 3s; 
+}
+a{
+  font-size: 25px;
+}
+.efectofadein{
+  animation: fadeIn;
+  animation-duration: 3s; 
+}
+p{
+  font-size: 2.5rem;
+  color:yellow
+}
+#parar{
+  color:brown
+}
+#mensaje{
+  color:yellow
+}
+.absoluto{
+  position: relative;
+  bottom:150px;
+  left: 350px;
+}
+h4{
+  color:yellow
+}
+.botonrow{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.dosrem{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.corto{
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
