@@ -532,5 +532,5 @@ def terminado():
 # y poder hacer fetch para ver que tecnología es "active" y redirigir
 # la transcripción de texto a la función que corresponda.
 if __name__ == '__main__':
-    app.run(5000)
+    app.run('127.0.0.1', 5000, debug=True)
 # el modo depuracion (debug) te permite observar los cambios en tiempo real en en navegador
